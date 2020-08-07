@@ -1,0 +1,4 @@
+ng-app指令定义了一个Angular.js应用程序
+ng-model指令把输入域的值绑定到应用程序的变量
+ng-bind指令把应用程序变量绑定到某个段落的innerHTML
+ng-init指令初始化Angular.js应用程序变量

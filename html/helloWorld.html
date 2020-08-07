@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HelloWorld</title>
+    <script src="../js/angular-1.4.8.min.js"></script>
+</head>
+<body>
+<div ng-app="">
+    <input ng-model="name" placeholder="请输入姓名">
+    <span>{{name}}</span>
+    <div ng-app="" ng-init="names=[
+{name:'Jani',country:'Norway'},
+{name:'Hege',country:'Sweden'},
+{name:'Kai',country:'Denmark'}]">
+
+        <p>循环对象：</p>
+        <ul>
+            <li ng-repeat="x in names">
+                {{ x.name + ', ' + x.country }}
+            </li>
+        </ul>
+
+    </div>
+</div>
+</body>
+</html>
